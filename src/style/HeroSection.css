@@ -1,0 +1,38 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 1.25rem;           /* text-xl */
+    color: rgba(255, 255, 255, 0.8); /* text-white/80 */
+    margin-bottom: 2rem;          /* mb-8 */
+    max-width: 48rem;             /* max-w-3xl */
+    margin-left: auto;            /* mx-auto */
+    margin-right: auto;
+    line-height: 1.625;           /* leading-relaxed */
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+}
+
