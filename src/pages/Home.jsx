@@ -1,9 +1,4 @@
 import React, { useState } from 'react'
-import HeroSection from '../components/HeroSection'
-import NavBar from '../components/NavBar'
-import Features from '../components/Features'
-import Reviews from '../components/Reviews'
-import CallToActionSection from '../components/pub'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { ArrowRight, Star, Users, Zap, Shield, Palette, Code, Globe } from "lucide-react";
 import { useNavigate } from 'react-router-dom'
@@ -102,6 +97,7 @@ const Home = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <button
+                    onClick={()=>{navigate('/login')}}
                     size="lg"
                     className="flex items-center bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white border-0 px-8 py-6 text-lg font-semibold group"
                   >

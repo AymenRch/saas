@@ -57,6 +57,7 @@ function Build() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
+              style={{display: "flex"}}
             >
               <aside className="builder-sidebar">
                 <TemplateSelector
