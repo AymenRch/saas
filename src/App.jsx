@@ -10,7 +10,7 @@ import Projects from "./pages/Projects.jsx";
 
 function App() {
   return (
-    <BrowserRouter basename="/saas">
+    <BrowserRouter>
       <Routes>
         {/* Example routes */}
         <Route path="/" element={<Home />} />
